@@ -1,0 +1,333 @@
+        
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+/* ----------------------------------------------------------------------- header styling start here   */
+
+
+
+
+
+/*Top  navigation styling  start here   by  media Quary  */
+
+
+
+@media screen and  ( min-width:280px) and  ( max-width:400px) {
+   /* #starting_navbar1{
+        font-size: 12px;
+
+        background-color: black;
+        color: white;
+        display:flex;
+        justify-content: center;
+    }
+
+
+
+    #nav1,.li_1{
+        font-size: 12px;
+        background-color: black;
+        color: white;
+        list-style: none;
+        display:inline-block;
+        padding: 2px 9px;
+        }
+        
+        .language_selection,option{
+            font-size: 12px;
+        background-color: black;
+        color: aliceblue;
+        border-style: none;
+        cursor: pointer;
+        
+        }
+
+
+        .language_selection {
+            border-radius: 5px;
+            border: 2px solid rgb(255, 128, 0);
+            padding: 5px 10px;
+            color: white;
+            font-size: 12px;
+        }*/
+    
+
+
+
+
+        
+#starting_navbar1{
+    margin: 0;
+    background-color: rgb(219, 38, 38);
+    color: white;
+    display:flex;
+    justify-content: right;
+}
+
+#nav1,.li_1{
+background-color: black;
+color: white;
+list-style: none;
+display:inline-block;
+padding: 10px 20px;
+}
+
+.language_selection,option{
+background-color: black;
+color: aliceblue;
+border-style: none;
+cursor: pointer;
+
+}
+
+
+}
+
+
+
+
+
+
+
+/*Top  navigation styling  start here   by  media Quary  */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Top  navigation styling  start here */
+
+#starting_navbar1{
+    margin: 0;
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: right;
+}
+
+#nav1,.li_1{
+background-color: black;
+color: white;
+list-style: none;
+display:inline-block;
+padding: 10px 20px;
+}
+
+.language_selection,option{
+background-color: black;
+color: aliceblue;
+border-style: none;
+cursor: pointer;
+
+}
+
+
+#starting_navbar2{
+align-items: center;
+display:flex;
+gap: 450px;
+padding: 0px 50px;
+}
+
+
+#nav2{
+font-family: 'Oswald', sans-serif;
+display:flex;
+gap: 50px;
+align-items: center;
+}
+
+
+.img_2{
+padding-right: 16px;
+}
+
+
+.li_2{
+
+list-style: none;
+display:inline-block;
+color: #000000;
+}
+
+
+#search_signin{
+display: flex;
+gap: 30px;
+
+}
+
+
+#search_bar{
+width: 170px;
+height: 35px;
+}
+
+
+
+
+
+
+.language_selection{
+    border-radius: 5px;
+    border: 2px solid rgb(255, 128, 0);
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    }
+    
+
+
+
+
+    /* ----------------------------------------------------------------------- header styling end here   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    /* ----------------------------------------------------------------------- footer styling start here   */
+
+/* footer of the website  styling start here */
+
+#footer_content{
+    background-color: #000000;
+    }
+    
+    .footer_heading{
+    padding: 60px 200px 36px 200px;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    }
+    
+    #foot_contaimer{
+    background-color: #000000;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    display: flex;
+    gap: 280px;
+    padding: 40px 260px 40px 200px;
+    }
+    
+    p{
+    
+    font-size: 15px;
+    }
+    
+    #foot_contain-three{
+    display: flex;
+    gap: 100px;
+    padding: 40px 280px 40px 200px;
+    }
+    
+    .language_selection{
+    border-radius: 5px;
+    border: 2px solid rgb(255, 128, 0);
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    }
+    
+    
+    #copyyrights,#foot_contain-three{
+    background-color: #000000;
+    color: white;
+    }
+    
+    #copy_with_gray{
+    color: gray;
+    font-size: 5px;
+    }
+    
+    #copyyrights{
+    display: flex;
+    gap: 35px;
+    padding: 50px 280px 50px 200px;
+    }
+    
+    #icons{
+    font-size: 22px;
+    display: flex;
+    gap: 16px;
+    }
+    
+    
+    
+    .pad{
+        height:400px;
+        animation: line2 3s;
+    }
+    
+    @keyframes line2 {
+        0%{
+           
+           opacity: 0;
+          
+        }
+    
+     
+        100%{
+            
+           opacity: 1;
+            transform: translateY(-120px);
+        }
+    }
+    
+    
+    footer{
+        animation: line6 2s;
+    }
+    
+    @keyframes line6 {
+        0%{
+           
+           opacity: 0.3;
+          
+        }
+    
+     
+        100%{
+            
+           opacity: 1;
+            transform: translateY(-80px);
+        }
+    }
+    
+    
+    
+
+    /* ----------------------------------------------------------------------- footer styling end here   */
